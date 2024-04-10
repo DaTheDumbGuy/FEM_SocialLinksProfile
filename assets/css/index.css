@@ -82,3 +82,7 @@ body{
     color:hsl(0, 0%, 100%);
     text-decoration: none;
 }
+.sl_navLinks > a:active{
+    background:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 20%);
+}
