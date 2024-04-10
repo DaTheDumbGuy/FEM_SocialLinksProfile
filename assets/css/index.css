@@ -17,11 +17,14 @@
     box-sizing:border-box;
 }
 body{
-    display:grid;
-    place-items: center;
     color:hsl(0, 0%, 100%);
     background:hsl(0, 0%, 8%);
     font-size:14px;
+
+}
+main{
+    display:grid;
+    place-items: center;
     height:100vh;
 }
 .sl_profile{
