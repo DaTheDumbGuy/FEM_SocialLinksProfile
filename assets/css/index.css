@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(../fonts/static/Inter-Bold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url(../fonts/static/Inter-Regular.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url(../fonts/static/Inter-SemiBold.ttf) format('truetype');
+}
+
+*, *::after, *::before{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display:grid;
+    place-items: center;
+    color:hsl(0, 0%, 100%);
+    background:hsl(0, 0%, 8%);
+    font-size:14px;
+    height:100vh;
+}
+.sl_profile{
+    border-radius:10px;
+    padding:25px;
+    background:hsl(0, 0%, 12%);
+    max-width:350px;
+    width:90%;
+}
+/* Header */
+.sl_header{
+    margin-bottom:20px;
+}
+.sl_header > div, .sl_header .sl_aboutMe{
+    text-align: center;
+}
+.sl_pic_container{
+    margin:auto;
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    overflow: hidden;
+}
+.sl_pic{
+    width:100%;
+    height:auto;
+}
+.sl_info{
+    padding: 20px 0 ;
+}
+.sl_name{
+    font-family: 'Inter-SemiBold';
+    padding-bottom:5px;
+}
+.sl_address{
+    font-size:0.88em;
+    font-family: 'Inter-Bold';
+    color:hsl(75, 94%, 57%);
+}
+.sl_aboutMe{
+    font-size:14px;
+    font-family: 'Inter-Regular';
+}
+/* Navlinks */
+.sl_navLinks{
+    display:flex;
+    gap:15px;
+    flex-wrap: wrap;
+    padding-bottom:10px;
+}
+.sl_navLinks > a{
+    font-family: 'Inter-Bold';
+    text-align: center;
+    padding:0.9rem 0 ;
+    border-radius:10px;
+    width:100%;
+    background:hsl(0, 0%, 20%);
+    color:hsl(0, 0%, 100%);
+    text-decoration: none;
+}
